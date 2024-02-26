@@ -8,20 +8,20 @@
 
 int main(void)
 {	
-	puts("Size of a char : ");
-	printf("%zu bytes\n",sizeof(char));
+	
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(char));
 
-	puts("Size of an int: ");
-	printf("%zu bytes\n",sizeof(int));
+	
+	printf("Size of a char :%zu bytes\n",(unsigned long) :wqsizeof(int));
 
- 	puts("Size of a long int: ");
-	printf("%zu bytes\n",sizeof(long));
+ 	
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(long));
 
-	puts("Size of a long long int: ");
-	printf("%zu bytes\n",sizeof(long long));
+	
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(long long));
 
-	puts("Size of a float: ");
-	printf("%zu bytes\n",sizeof(float));
+	
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(float));
 
 
 

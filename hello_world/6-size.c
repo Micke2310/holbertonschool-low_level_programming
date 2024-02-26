@@ -8,20 +8,26 @@
 
 int main(void)
 {	
-	
-	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(char));
+	char Achar;
+	int Bint;
+	long int Clongint;
+	long long Dlonglong;
+	float Efloat;
+
+
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Achar));
 
 	
-	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(int));
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Bint));
 
  	
-	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(long));
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Clong));
 
 	
-	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(long long));
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Dlonglong));
 
 	
-	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(float));
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Efloat));
 
 
 

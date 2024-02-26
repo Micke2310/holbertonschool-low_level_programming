@@ -21,7 +21,7 @@ int main(void)
 	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Bint));
 
  	
-	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Clong));
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Clongint));
 
 	
 	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(Dlonglong));

@@ -12,7 +12,7 @@ int main(void)
 	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(char));
 
 	
-	printf("Size of a char :%zu bytes\n",(unsigned long) :wqsizeof(int));
+	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(int));
 
  	
 	printf("Size of a char :%zu bytes\n",(unsigned long) sizeof(long));

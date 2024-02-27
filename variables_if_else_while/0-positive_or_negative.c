@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ *main - Enter point
+ *0-positive_or_negative.c
+ *Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;

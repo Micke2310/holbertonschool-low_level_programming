@@ -12,19 +12,13 @@
 
 int main(void)
 {
-int n;
+int n=0;
 
-while (n <= 0 && n >= 9)
+while (n >= 0 && n <= 9)
 {
-printf("%d",n);
+printf("%d", n);
 n++;
 }
-
-
-
-
-
-
 
 return (0);
 }

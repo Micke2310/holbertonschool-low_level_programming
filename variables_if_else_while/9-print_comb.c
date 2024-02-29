@@ -23,9 +23,9 @@ if (n < 9 && n + 1 <= 9)
 putchar(',');
 putchar(' ');
 }
-n++;
+++n;
 }
-putchar(' ');
+putchar('\n');
 
 
 return (0);

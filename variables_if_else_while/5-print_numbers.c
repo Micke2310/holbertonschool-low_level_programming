@@ -16,9 +16,9 @@ int n=0;
 
 while (n >= 0 && n <= 9)
 {
-printf("%d \n ", n);
+printf("%d", n);
 n++;
 }
-
+putchar('\n');
 return (0);
 }

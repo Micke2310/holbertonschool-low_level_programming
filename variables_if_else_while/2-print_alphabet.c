@@ -10,7 +10,6 @@ int main(void)
 {
 char alphabet = 'a';
 
-srand(1234);
 
 while (alphabet <= 'z')
 {

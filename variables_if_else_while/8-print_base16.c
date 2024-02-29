@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- *
  *main - Enter point
  *
  *8-print_base16.c

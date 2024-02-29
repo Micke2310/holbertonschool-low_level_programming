@@ -3,28 +3,22 @@
 #include <time.h>
 
 /**
- * main - Entry point
- *
- * Description: Prints the alphabet in lowercase with random step
- *              between 1 and 10.
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-    int n;
-    char alphabet = 'a';
+char alphabet = 'a';
 
-    srand(time(0));
-    n = rand() % 10 + 1;
+srand(time(0));
 
-    while (alphabet <= 'z')
-    {
-        putchar(alphabet);
-        alphabet += n;
-    }
+while (alphabet <= 'z')
+{
+putchar(alphabet);
+alphabet++;
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }

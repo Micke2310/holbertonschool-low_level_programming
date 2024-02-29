@@ -13,14 +13,14 @@ char alphabet;
 alphabet = 'a';
 while (alphabet <= 'z')
 {
-iputchar(alphabet);
+putchar(alphabet);
 alphabet++;
 }
 alphabet = 'A';
 while (alphabet <= 'z')
 {
 putchar(alphabet);
-putchar++;
+alphabet++;
 }
 putchar('\n');
 

@@ -17,13 +17,12 @@ while (n <= 9)
 {
 
 putchar(n + '0');
-
+putchar(' ');
 if (n < 9)
 {
 putchar(',');
-putchar(' ');
 }
-n++;
+++n;
 }
 putchar('\n');
 

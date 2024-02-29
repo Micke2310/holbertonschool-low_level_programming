@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  *
  *main - Enter point
  *
@@ -22,7 +22,7 @@ putchar(n + '0');
 n++;
 }
 
-while (alphabet >= 'a' && alphabet <= 'd')
+while (alphabet >= 'a' && alphabet <= 'f')
 {
 putchar(alphabet);
 alphabet++;

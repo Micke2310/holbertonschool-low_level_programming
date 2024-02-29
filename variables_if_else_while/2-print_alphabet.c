@@ -10,7 +10,7 @@ int main(void)
 {
 char alphabet = 'a';
 
-srand(time(0));
+srand(clock());
 
 while (alphabet <= 'z')
 {

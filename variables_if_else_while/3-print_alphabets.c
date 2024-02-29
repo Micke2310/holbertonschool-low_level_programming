@@ -8,12 +8,19 @@
 
 int main(void)
 {
-char alphabet ='a';
+char alphabet;
 
-while (alphabet <= 'z' && alphabet < 'a')
+alphabet = 'a';
+while (alphabet <= 'z')
+{
+iputchar(alphabet);
+alphabet++;
+}
+alphabet = 'A';
+while (alphabet <= 'z')
 {
 putchar(alphabet);
-alphabet++;
+putchar++;
 }
 putchar('\n');
 

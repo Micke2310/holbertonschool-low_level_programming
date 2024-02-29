@@ -4,22 +4,27 @@
 
 /**
  * main - Entry point
+ *
+ * Description: Prints the alphabet in lowercase with random step
+ *              between 1 and 10.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-	char alphabet = 'a';
+    int n;
+    char alphabet = 'a';
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	while (alphabet <= 'z')
-	{
-	putchar(alphabet);
-	alphabet++;
-	}
+    srand(time(0));
+    n = rand() % 10 + 1;
 
-	putchar('\n');
+    while (alphabet <= 'z')
+    {
+        putchar(alphabet);
+        alphabet += n;
+    }
 
-	return (0);
+    putchar('\n');
+
+    return (0);
 }

@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-*main - Enter point
-*
-*
-*
-*Retur: Always 0 (Success)
-*/
+ *main - Enter point
+ *
+ *
+ *
+ *Retur: Always 0 (Success)
+ */
 
 
 int main(void)

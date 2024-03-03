@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-*main - Enter point
+*print_alphabet - Enter point
 *
 *
 *
-*Return: Always 0 (Success)
+*Return:no is necessary because is VOID the type de return, only needs in funcion main your retur is INT (number entire)
 */
 
-int main(void)
+void print_alphabet(void)
 {
 char alphabet = 'a';
 
@@ -19,5 +19,5 @@ while ( alphabet <= 'z')
 }
 _putchar('\n');
 
-return (0);
+/**return (0); Return:no is necessary because is VOID the type de return, only needs in funcion main your retur is INT (number entire)*/
 }

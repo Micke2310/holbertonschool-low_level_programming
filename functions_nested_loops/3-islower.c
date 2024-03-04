@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- *int_islower(int c) - enter point.
- *_islower funcion is greate, verifica un caracter en minuscula
- *'c' parameter is int, es el caracter a verificar
- *Description: when c is lowercase return 1, otherwise return 0
- *Return: 1 is lowercase, 0 otherwise
+ * _islower - Verifica si un carácter es minúscula
+ * @c: El carácter a verificar
+ *
+ * Return: 1 si c es una minúscula, 0 en caso contrario
+ *
+ * Descripción: La función _islower verifica si un carácter dado es una letra minúscula.
+ *              Devuelve 1 si el carácter es una minúscula y 0 si no lo es.
  */
-
 
 int _islower(int c)
 {

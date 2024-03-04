@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
-*main - Enter point
+*print_last_digit - funcion paar imprimir el ultimo digito.
+*@n: el numero que sera comparado
 *
 *
-*
-*Retur: Always 0 (Succes)
+*Retur: el valor de last_digit
 */
 
 
 int print_last_digit(int n)
 {
-int last_digit; 
+int last_digit;
 last_digit = n % 10;
 if (last_digit < 0)
 {

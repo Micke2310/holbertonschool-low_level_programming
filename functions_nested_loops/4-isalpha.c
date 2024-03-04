@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_isalpha - es una llamada a funcion que verifica caracteres
- *'c' es un argumento de tipo int
- *si son alphabeticos return 1.
+ * _isalpha : - es una llamada a funcion que verifica caracteres
+ * @'c': es un argumento de tipo int
+ *Return: si son alphabeticos return 1.
  *si no lo son retirn 0.
  *
  */

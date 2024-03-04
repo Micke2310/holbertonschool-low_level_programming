@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*int _islower(int c)
+*int _islower(int c) - enter point
 *Description: when c is lowercase return 1, otherwise return 0
 *Return: 1 is lowercase, 0 otherwise
 */

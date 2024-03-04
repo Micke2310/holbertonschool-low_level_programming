@@ -12,7 +12,7 @@ char alphabet = 'a';
 int i;
 for( i = 0; i < 10; i++)
 {
-while(alphabet <= 'z')
+while( alphabet <= 'z')
 {
 _putchar(alphabet);
 alphabet++;
@@ -20,6 +20,9 @@ alphabet++;
 _putchar('\n');
 alphabet = 'a';
 /**reiniciamos el valor de alphabet,
- * para comenzar de nuevo tras cda iteracion, por 10 veces.*/
+ * para comenzar de nuevo tras cda iteracion, por 10 veces.
+ *
+ */
+
 }
 }

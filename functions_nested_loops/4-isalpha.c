@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * _isalpha : - es una llamada a funcion que verifica caracteres
- * @'c': es un argumento de tipo int
- *Return: si son alphabeticos return 1.
- *si no lo son retirn 0.
+ * _isalpha - Verifica si un carácter es una letra del alfabeto
+ * @c: El carácter a verificar
  *
+ * Return: 1 si el carácter es una letra del alfabeto, 0 en caso contrario
+ *
+ * Descripción: La función _isalpha verifica si el carácter dado es una letra del alfabeto.
+ *              Devuelve 1 si el carácter es una letra del alfabeto (mayúscula o minúscula)
+ *              y 0 si no lo es.
  */
-
 
 int _isalpha(int c)
 {

@@ -2,8 +2,8 @@
 
 /**
 *int _islower(int c)
-*
-*Return: 1 is lowercase, 0 otherwiae
+*Description: when c is lowercase return 1, otherwise return 0
+*Return: 1 is lowercase, 0 otherwise
 */
 
 
@@ -12,13 +12,12 @@ int _islower(int c)
 
 if (c >= 'a' && c <= 'z')
 {
-_putchar(c + '1');
-c++;
+return (1);
 }
 else
 {
-_putchar(c + '0');
-c++;
-}
 return (0);
+}
+
+
 }

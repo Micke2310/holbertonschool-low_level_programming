@@ -1,19 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
 *main - Enter point
 *
 *
 *
-*Retur: Always 0 (Success)
+*Retur: Always 0 (Succes)
 */
 
-int main(void)
+
+int print_last_digit(int n)
 {
+int last_digit; 
+last_digit = n % 10;
 
+_putchar(last_digit + '0');
 
-
-return (0);
+return (last_digit);
 }

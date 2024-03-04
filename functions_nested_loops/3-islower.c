@@ -10,20 +10,14 @@
 int _islower(int c)
 {
 
-char lowercase = 'a';
-
-if (lowercase => 'a' && lowercase <= 'z')
+if (c >= 'a' && c <= 'z')
 {
-_putchar(lowercase + '1');
-_putchar++;
+return (1);
 }
-else if (lowercase < 'a' || lowercase > 'z')
+else
 {
-_putchar(lowercase + '0');
-_putchar++;
-
-}
-
-
 return (0);
+
+}
+
 }

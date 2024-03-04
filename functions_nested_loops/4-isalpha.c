@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
 *main - Enter point
@@ -10,10 +8,20 @@
 *Retur: Always 0 (Success)
 */
 
-int main(void)
+
+int _isalpha(int c)
 {
-
-
-
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+else
+{
 return (0);
+}
+
 }

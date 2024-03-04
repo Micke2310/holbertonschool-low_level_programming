@@ -1,19 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include "main.h"
 /**
-*main - Enter point
-*
-*
-*
-*Retur: Always 0 (Success)
-*/
+ * _abs - calcula el valor absoluto de un int
+ * @"number": el entero del que se calcula su valor
+ *
+ * Return: el valor absoluto de "number".
+ * */
 
-int main(void)
+int _abs(int number)
 {
 
+if (number < 0)
+{
+return (- number);
+}	
+else 
+{
+return (number);
+}
 
 
-return (0);
 }

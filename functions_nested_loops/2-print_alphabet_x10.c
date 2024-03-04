@@ -1,19 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
-*main - Enter point
+*void print_alphabet_x10(void)
 *
 *
 *
-*Retur: Always 0 (Success)
+*Return: no tieene (Success)
 */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 
+	char alphabet = 'a';
+int i = 0;
+ 
+while( alphabet <= 'z')
+{
+	for(i = 0; i < 10; i++)
+	{
+	_putchar(alphabet);
+alphabet++;
+	}
+}
+_putchar('\n');
 
-
-return (0);
 }

@@ -21,7 +21,8 @@ for (left = 0; left <= 9 ; left++)
 	if (left == 0)
 	{
 	_putchar('0');
-	} else if ( result < 10)
+	} 
+	else if ( result < 10)
 	{
 	_putchar(',');
 	_putchar(' ');
@@ -36,9 +37,6 @@ for (left = 0; left <= 9 ; left++)
 	_putchar((result % 10)+ '0');
 	
 	}
-	
-	
-	
 	
 	}
 _putchar('\n');

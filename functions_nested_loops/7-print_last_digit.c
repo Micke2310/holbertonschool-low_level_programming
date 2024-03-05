@@ -1,12 +1,12 @@
 #include "main.h"
 
+
 /**
-*print_last_digit - funcion paar imprimir el ultimo digito.
-*@n: el numero que sera comparado
-*
-*
-*Retur: el valor de last_digit
-*/
+ * print_last_digit - imprime el último dígito de un númer
+ * @n: el número del que se imprimirá el último dígit
+ *
+ * Return: el último dígito de
+ */
 
 
 int print_last_digit(int n)

@@ -21,11 +21,7 @@ int _isdigit(int c)
     }
     else
     {
-        _putchar(c);
-        _putchar(':');
-        _putchar(' ');
-        _putchar('0');
-        _putchar('\n');
+	    _putchar('0');
         return (0);
     }
 }

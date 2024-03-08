@@ -19,7 +19,11 @@ int _isdigit(int c)
     }
     else
     {
+        _putchar(c);
+        _putchar(':');
+        _putchar(' ');
         _putchar('0');
+        _putchar('\n');
         return (0);
     }
 }

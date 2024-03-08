@@ -9,22 +9,16 @@
 
 int _isdigit(int c)
 {
-int d = 0;
 
-while (d >= 0 && d <= 9)
-{
-if (c == d + '0')
+if (c >= '0' && c >= '9')
 {
 _putchar('1');
-d++;
 return (1);
 }
 else
 {
 _putchar('0');
-d++;
+return (0);
 }
 
-}
-return (0);
 }

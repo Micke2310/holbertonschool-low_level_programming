@@ -21,8 +21,7 @@ int _isdigit(int c)
     }
     else
     {
-	    _putchar(c + '0');
+        _putchar(c + '0');
         return (0);
     }
 }
-

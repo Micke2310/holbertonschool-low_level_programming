@@ -6,15 +6,17 @@
  *
  *Return: retorna 1 si es digito y 0 si no lo es.
  */
+
+
 int _isdigit(int c)
 {
     if (c >= '0' && c <= '9')
     {
         _putchar(c);
-	_putchar(':');
-	_putchar(' ');
-	_putchar('1');
-	_putchar('\n');
+        _putchar(':');
+        _putchar(' ');
+        _putchar('1');
+        _putchar('\n');
         return (1);
     }
     else
@@ -27,3 +29,4 @@ int _isdigit(int c)
         return (0);
     }
 }
+

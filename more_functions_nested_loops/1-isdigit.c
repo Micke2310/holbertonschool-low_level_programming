@@ -10,7 +10,11 @@ int _isdigit(int c)
 {
     if (c >= '0' && c <= '9')
     {
-        _putchar('1');
+        _putchar(c);
+	_putchar(':');
+	_putchar(' ');
+	_putchar('1');
+	_putchar('\n');
         return (1);
     }
     else

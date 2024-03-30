@@ -7,7 +7,7 @@
  * print_list - prints all the elemnts of a list_t.
  * @h: a pointer to the head of the list_t.
  *
- * return: the number of nodes in the list.
+ * Return: (count) , the number of nodes in the list.
  */
 
 

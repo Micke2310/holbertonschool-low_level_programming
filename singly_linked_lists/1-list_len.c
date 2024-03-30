@@ -12,14 +12,11 @@
 
 size_t list_len(const list_t *h)
 {
-    size_t count = 0; /*Inicializamos un contador para llevar el registro del número de nodo*/
-
-/*Bucle para recorrer la lista enlazada*/
+size_t count = 0;/*Inicializamos un contador para llevar el registro del número de nodo*/
+		  
     while (h != NULL)
     {
-        count++; /*Incrementamos el contador en cada iteració*/
-        h = h->next; /* Avanzamos al siguiente nodo*/
+        count++; /*Incrementamos el contador en cada iteraci�*/
     }
-
-    return count; /*Retornamos el número total de nodo*/
+    return (count); /*Retornamos el número total de nodo*/
 }

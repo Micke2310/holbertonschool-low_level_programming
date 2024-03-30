@@ -15,11 +15,11 @@ size_t list_len(const list_t *h)
 size_t count = 0;
 /*Inicializamos un contador para llevar el registro del número d nodos*/
 
-    while (h != NULL)
-    {
-        count++; /*Incrementamos el contador en cada iteracion*/
+	while (h != NULL)
+	{
+	count++; /*Incrementamos el contador en cada iteracion*/
 	h = h->next;  /*avanzamos al ssiguiente nodo*/
-    }
+	}
 return (count); /*Retornamos el número tota*/
 
 }

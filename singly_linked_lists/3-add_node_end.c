@@ -64,17 +64,12 @@ list_t *add_node_end(list_t **head, const char *str)
 		{
 		*head = new_n;		/*sera la cabeza == nuevo nodo*/
 		return (new_n);
-		
 		}
-
 	last_n = *head;		/*si lista no es vacia, buscar ultimo nodo*/
 		while (last_n->next != NULL)
 		{
 		last_n = last_n->next;
 		}
-
 	last_n->next = new_n;	/*enlazar nuevo nodo al ultimo nodo*/
-
 return (new_n);
-
 }

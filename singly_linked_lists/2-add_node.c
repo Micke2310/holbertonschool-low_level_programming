@@ -13,12 +13,12 @@
 
 size_t _strlen(const char *str)
 {
-    size_t len = 0;
+	size_t len = 0;
 
-    while (str[len] != '\0')
-        len++;
+	while (str[len] != '\0')
+	len++;
 
-    return len;
+	return (len);
 }
 
 
@@ -38,12 +38,12 @@ list_t *new_n;  /*declaramos un nuevo nodo*/
 
 new_n = malloc(sizeof(list_t)); /*asignamos memoria dinamica al nuevo nodo*/
 
-	if (new_n == NULL ) /*verificamos si new_n fue creado*/
+	if (new_n == NULL) /*verificamos si new_n fue creado*/
 	{
 	return (NULL);
 	}
 
-new_n->str = strdup(str); 
+new_n->str = strdup(str);
 /*asignamos la cadena (str) a nuevo nodo y la duplicmos.*/
 
 	if (new_n->str == NULL) /*verificamos si se duplico str con exito*/

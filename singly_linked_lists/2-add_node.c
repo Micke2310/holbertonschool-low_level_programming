@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "lists_h"
+#include "lists.h"
 
 
-list_t *add_node(list_t **head, const char *str);
+list_t *add_node(list_t **head, const char *str)
 {
 
 list_t *new_node;  /*declaramos un nuevo nodo*/
@@ -25,7 +25,7 @@ new_node->str = strdup(str);
 	return (NULL);
 	}
 
-new_node->leng = strlen(str); /*asignamos longitud de la cadena al nuevo nodo*/
+new_node->len = strlen(str); /*asignamos longitud de la cadena al nuevo nodo*/
 
 new_node->next = *head; /*establecemos el siguiente nodo del nuevo nodo,*/
 			/*como el nodo actual de la cabeza de la lista*/
